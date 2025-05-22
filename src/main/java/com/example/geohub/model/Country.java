@@ -15,9 +15,9 @@ import javax.persistence.*;
 @Table(name="country")
 public class Country {
     @Id
-    @Column(name = "countryid")
+   
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    
+     @Column(name = "countryid")
     private int countryId;
 
     @Column(name = "countryname")
